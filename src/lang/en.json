@@ -1,0 +1,14 @@
+{
+    "navigationBar":{
+        "functionalities":"functionalities",
+        "solutions":"solutions",
+        "company":"company",
+        "resources": "resources",
+        "prices":"prices",
+        "signIn":"sign in",
+        "sales":"talk with sales",
+        "freeRegister":"free register"
+    },
+    "featureSection":{},
+    "footerSection":{}
+}

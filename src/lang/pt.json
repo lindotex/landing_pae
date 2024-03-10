@@ -1,0 +1,66 @@
+{
+    "navigationBar":{
+        "functionalities":"Funcionalidades",
+        "solutions":"Solucoes",
+        "company":"Empresa",
+        "resources": "Resources",
+        "prices":"Precos",
+        "signIn":"Entrar",
+        "sales":"Falar com vendas",
+        "freeRegister":"Experimente gratuitamente"
+    },
+    "Functionalities":{
+        "collaboration": {
+            "title":"colaboracao",
+            "channels": "Canais",
+            "channelsText": "Organize as equipes de trabalho",
+            "slackConnect":"Slack connect",
+            "SlackConnectText":"Trabalhe com parceiros externos",
+            "messages":"Mensagens",
+            "messagesText":"Converse com sua equipe",
+            "circles":"circles",
+            "circlesText":"Faca reunioes com audio e video",
+            "videoClips":"Clipes",
+            "videoClipsText":"Grave e compartilhe atualizacoes",
+        },
+        "automation":{
+            "title":"automacao",
+            "workflowCreator":"Criador de fluxo de trabalho",
+            "workflowCreatorText":"Automatize as tarefas do dia a dia",
+            "integrationApp":"Apps e integracao",
+            "integrationAppText":"Traga suas ferramentas para o slack"
+        },
+        "knowledge":{
+            "title":"conhecimento",
+            "search":"Pesquisar",
+            "searchText":"Busque o conhecimento compartilhado",
+            "canvas":"Canvas",
+            "canvasText":"Crie documentos avancados e flexiveis",
+            "filesSharing":"Compartilhamento de arquivos",
+            "filesSharingText": "Traga os arquivos para fluxo de trabalho"
+        },
+        "enterprisePlatform":{
+            "title":"plataforma enterprise",
+            "ia":"IA do slack",
+            "iaText":"IA simples e intuitiva, onde voce ja esta trabalhando",
+            "security":"Seguranca",
+            "securityText":"Proteja os dados, garanta a conformidade",
+            "enterpriseKeyManagement":"Enterprise Key Management",
+            "enterpriseKeyManagementText": "Monitore e revogue o acesso",
+            "atlas":"Atlas do Slack",
+            "atlasText":"Descubra os mapas de perfis e organizacao"
+        }
+    },
+    "Solutions":{
+    },
+    "Company":{
+    },
+    "Resources":{
+    },
+    "prices":{
+    },
+    "featureSection":{
+    },
+    "footerSection":{
+    }
+}
