@@ -3,7 +3,7 @@
         "functionalities":"Funcionalidades",
         "solutions":"Solucoes",
         "company":"Empresa",
-        "resources": "Resources",
+        "resources": "Recursos",
         "prices":"Precos",
         "signIn":"Entrar",
         "sales":"Falar com vendas",
@@ -21,7 +21,7 @@
             "circles":"circles",
             "circlesText":"Faca reunioes com audio e video",
             "videoClips":"Clipes",
-            "videoClipsText":"Grave e compartilhe atualizacoes",
+            "videoClipsText":"Grave e compartilhe atualizacoes"
         },
         "automation":{
             "title":"automacao",

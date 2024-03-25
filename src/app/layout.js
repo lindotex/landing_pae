@@ -11,13 +11,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   const [lang, setLang] = useState('pt');
-  const data = lang === 'pt' ? pt : en;
 
-  const changeLang = (lang) => {
-    setLang(lang)
+  function changeLang(value){
+      setLang(value)
   }
+
+  const data = lang === 'pt' ? pt : en;
+  
   return (
-    <html lang="en">
+    <html lang={data}>
       <body className={inter.className}>
         <Header changeLang={changeLang} navigationBar={data.navigationBar}/>
         {children}
