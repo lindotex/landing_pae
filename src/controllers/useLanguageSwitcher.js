@@ -1,4 +1,4 @@
-import React, {useDebugValue, useEffect, useState} from 'react'
+import { useEffect, useState} from 'react'
 import pt from '../lang/pt.json'
 import en from '../lang/en.json'
 

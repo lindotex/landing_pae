@@ -9,6 +9,8 @@
         "sales":"talk with sales",
         "freeRegister":"free register"
     },
-    "featureSection":{},
-    "footerSection":{}
+    "features":{
+        "title":"Made for people. ",
+        "spanTitle":"Created thinking in productivity"
+    }
 }

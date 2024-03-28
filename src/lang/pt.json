@@ -7,7 +7,11 @@
         "prices":"Precos",
         "signIn":"Entrar",
         "sales":"Falar com vendas",
-        "freeRegister":"Experimente gratuitamente"
+        "freeRegister":"Experimente"
+    },
+    "features":{
+        "title":"Feito para pessoas.",
+        "spanTitle":"Criado pensando na produtividade"
     },
     "Functionalities":{
         "collaboration": {
