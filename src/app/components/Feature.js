@@ -3,17 +3,16 @@ import { Document } from 'postcss'
 import React from 'react'
 import pt from '../../lang/pt.json'
 import en from '../../lang/en.json'
-
-
+import Brands from './Brands'
 
 const Feature = () => {
     const lang = window.localStorage.getItem('language')
     const data = lang === 'pt' ? pt : en;
 
     return (
-        <div>
+        <div className='bg-slack-purple w-full'>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-4 mx-auto flex flex-wrap">
+                <div class="container px-5 py-24 mx-auto flex flex-wrap">
                     <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
                         <h1 className='text-5xl text-white'>{data.features.title}<span className='text-slack-gold'>{data.features.spanTitle}</span></h1>
                         <p className='text-white text-xl mt-4'>{data.features.featureText}</p>

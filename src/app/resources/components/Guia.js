@@ -50,6 +50,8 @@ const Guia = () => {
 
             {/* Third div */}
             <div className='flex w-full lg:flex-col flex-row lg:w-1/3'>
+                {/* TODO: */}
+                {/* fazer esse componente reutilizavel */}
                 {/* First Article */}
                 <div>
                     <button type="button" className='cursor-pointer text-left flex-row lg:flex-col'>
