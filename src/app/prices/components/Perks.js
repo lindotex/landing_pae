@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import img from '../app/assets/perk_img.png'
+import img from '../../assets/perk_img.png'
 
 const perks = {
     "title": "Otimize seu trabalho com a IA do Slack",
@@ -31,7 +31,7 @@ const Perks = () => {
                 <button className='ml-6 mt-4 px-4 py-2 rounded-xl border text-white bg-slack-purple hover:bg-slack-gold hover:text-black'>{perks.button}</button>
                 <p className='mt-4 ml-6 font-bold'>{perks.subtitle}<span className='font-thin'>{perks.subtitleSpan}</span></p>
             </div>
-            <div className='flex-col justify-center items-center lg:w-full'>
+            <div className='md:mt-0 mt-6 flex-col justify-center items-center lg:w-full'>
                 <Image
                     alt={'perks image'}
                     src={img}
