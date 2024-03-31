@@ -1,8 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../app/assets/logo_simple.png'
+import logo from '../../app/assets/logo_simple.png'
+import useLanguageSwitcher from '@/controllers/useLanguageSwitcher'
+import pt from '../../lang/pt.json'
+import en from '../../lang/en.json'
 
 const Footer = () => {
+  const [lang, setLang] = useLanguageSwitcher();
+  const language = window.localStorage.getItem('language')
+  const data = language === 'pt' ? pt : en;
   return (
     <div>
       <footer>
@@ -50,85 +56,85 @@ const Footer = () => {
 
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PRODUTOS</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{data.footerSection.products.title.toUpperCase()}</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Assistir demonstacao</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.watchDemonstration}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Precos</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.prices}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Pagos vs Gratuitos</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.paidAndFree}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Acessibilidade</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.accessibility}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Versoes em destaque</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.highlightedVersions}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Versoes em destaque</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.products.alterationLog}</a>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FUNCIONALIDADES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{data.footerSection.functionalities.title.toUpperCase()}</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Canais</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.functionalities.channels}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Slack Connect</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.functionalities.slackConnect}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Criador de fluxo de trabalho</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.functionalities.workflowCreator}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Mensagens</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.functionalities.messages}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Circulos</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.functionalities.circles}</a>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">EMPRESA</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{data.footerSection.company.title.toUpperCase()}</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Sobre nos</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.company.aboutUs}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Noticias</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.company.news}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Kit de midia</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.company.midiaKit}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Central da marca</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.company.brandCentral}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Carreiras</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.company.carrers}</a>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SOLUCOES</h2>
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">{data.footerSection.solutions.title.toUpperCase()}</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Engenharia</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.solutions.engneering}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">TI</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.solutions.it}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Atendimento ao cliente</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.solutions.customServices}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Vendas</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.solutions.sales}</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Gerenciamento de projetos</a>
+                  <a class="text-gray-600 hover:text-gray-800">{data.footerSection.solutions.projectManagement}</a>
                 </li>
               </nav>
             </div>

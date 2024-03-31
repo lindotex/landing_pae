@@ -10,8 +10,12 @@
         "freeRegister":"Experimente"
     },
     "features":{
-        "title":"Feito para pessoas.",
-        "spanTitle":"Criado pensando na produtividade"
+        "title":"Feito para pessoas. ",
+        "spanTitle":"Criado pensando na produtividade",
+        "featureText":"Conecte-se com as pessoas certas, encontre o que você precisa e automatize o restante. É assim que funciona o trabalho no Slack, sua plataforma de produtividade.",
+        "subscribeBtn": "Inscrever-se com o e-mail",
+        "googleBtn": "Entrar com Google",
+        "subText":"O Slack pode ser usado gratuitamente pelo tempo que você quiser."
     },
     "Functionalities":{
         "collaboration": {
@@ -66,5 +70,38 @@
     "featureSection":{
     },
     "footerSection":{
+        "products":{
+            "title":"Produtos",
+            "watchDemonstration":"Assistir Demonstracao",
+            "prices":"Precos",
+            "paidAndFree":"Pagos vs Gratuitos",
+            "accessibility": "Acessibilidade",
+            "highlightedVersions": "Versoes em destaque",
+            "alterationLog":"Log de alteracoes"
+        },
+        "functionalities":{
+            "title":"Funcionalidades",
+            "channels":"Canais",
+            "slackConnect":"Slack Connect",
+            "workflowCreator":"Criador de fluxo de trabalho",
+            "messages":"Mensagens",
+            "circles":"Circulos"        
+        },
+        "company":{
+            "title":"Compania",
+            "aboutUs":"Sobre nos",
+            "news":"Noticias",
+            "midiaKit":"Kit de Midia",
+            "brandCentral": "Central de marca",
+            "Carrers":"Carreiras"
+        },
+        "solutions":{
+            "title":"Solucoes",
+            "engneering":"Engenharia",
+            "it":"Solucoes em TI",
+            "customServices":"Atendimento ao cliente",
+            "sales":"Vendas",
+            "projectManagement":"Gerenciamento de Projetos"
+        }
     }
 }

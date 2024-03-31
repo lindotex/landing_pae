@@ -1,14 +1,15 @@
 import React, {useState} from 'react'
 import Image from 'next/image';
-import logo from '../app/assets/logo.png'
-import pt from '../lang/pt.json'
-import en from '../lang/en.json'
+import logo from '../../app/assets/logo.png'
+import pt from '../../lang/pt.json'
+import en from '../../lang/en.json'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import useLanguageSwitcher from '@/controllers/useLanguageSwitcher';
 
 const Header = ({navigationBar}) => {
     const [lang, setLang] = useLanguageSwitcher();
-    const data = lang === 'pt' ? pt : en;
+    const language = window.localStorage.getItem('language')
+    const data = language === 'pt' ? pt : en;
 
     return (
     <div>
@@ -33,10 +34,11 @@ const Header = ({navigationBar}) => {
                 </nav>
             </div>
             <div className='flex flex-wrap items-center text-base justify-center mx-4 my-2 md:ml-auto'>
-                <button  className='mr-2' onClick={()=> setLang(lang ==='en'? 'pt': 'en')}>
-                    {
-                        lang==='en'? <span class="fi fi-br"></span> : <span class="fi fi-gb"></span>
-                    }
+                <button  className='mr-2' onClick={()=>{setLang('pt'); window.location.reload()}}>
+                    <span class="fi fi-br"></span>
+                </button>
+                <button  className='mr-2' onClick={()=> {setLang('en');window.location.reload()}}>
+                    <span class="fi fi-gb"></span>
                 </button>
                 <a href='/signin' className="px-4 py-2 mr-4 hover:text-purple-400 hover:text-slack-gold">{data.navigationBar.signIn.charAt(0).toUpperCase() + data.navigationBar.signIn.slice(1)}</a>
                 <button href='../sales' className='px-4 py-2 mr-4 bg-slack-purple text-white border-2 border-color-white rounded-md px-8 py-2 hover:bg-slack-gold hover:border-slack-gold hover:text-slack-purple'>{data.navigationBar.sales.charAt(0).toUpperCase() + data.navigationBar.sales.slice(1)}</button>

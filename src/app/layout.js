@@ -1,8 +1,8 @@
 "use client"
 import { Inter } from "next/font/google";
 import React, { useState } from 'react';
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
 import pt from '../lang/pt.json';
 import en from '../lang/en.json';
 import "./globals.css";

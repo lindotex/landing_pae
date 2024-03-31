@@ -1,5 +1,5 @@
 import React from 'react';
-import Feature from "@/components/Feature";
+import Feature from "@/app/components/Feature";
 
 
 export default function Home() {

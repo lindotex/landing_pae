@@ -37,7 +37,9 @@ const useLanguageSwitcher = () => {
     },[lang])
 
     useState(lang)
-    return ([lang,setLang])
+    return (
+        [lang,setLang]
+    )
 }
 
 export default useLanguageSwitcher

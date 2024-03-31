@@ -11,6 +11,97 @@
     },
     "features":{
         "title":"Made for people. ",
-        "spanTitle":"Created thinking in productivity"
+        "spanTitle":"Created thinking in productivity",
+        "featureText":"Connect with the right people. Find what you need to and automatize everything else.That is how it works in Slack. Your own productive platform.",
+        "subscribeBtn": "Subscribe with your e-mail",
+        "googleBtn": "Sign in with Google",
+        "subText":"Slack can be used totally for free during the time that you need it to."
+    },
+    "Functionalities":{
+        "collaboration": {
+            "title":"Colaboration",
+            "channels": "Chanels",
+            "channelsText": "Organize your workforce",
+            "slackConnect":"Slack connect",
+            "SlackConnectText":"Work with external partners",
+            "messages":"Mesages",
+            "messagesText":"Talk with your team",
+            "circles":"circles",
+            "circlesText":"Assemble meeting with audio and video",
+            "videoClips":"Clips",
+            "videoClipsText":"Record and share updates"
+        },
+        "automation":{
+            "title":"automation",
+            "workflowCreator":"Work Flow Creator",
+            "workflowCreatorText":"Automatize your daily tasks",
+            "integrationApp":"Apps and integration",
+            "integrationAppText":"Bring your tools to slack"
+        },
+        "knowledge":{
+            "title":"Knowledge",
+            "search":"Research",
+            "searchText":"Search shared knowledge",
+            "canvas":"Canvas",
+            "canvasText":"Create advanced and flexible documents",
+            "filesSharing":"Sharing files",
+            "filesSharingText": "Bring your files to the work flow"
+        },
+        "enterprisePlatform":{
+            "title":"Enterprise platform",
+            "ia":"AI of Slack",
+            "iaText":"Simple and intuitive AI, where your are already working at",
+            "security":"Security",
+            "securityText":"Protect your data and ensure conformity",
+            "enterpriseKeyManagement":"Enterprise Key Management",
+            "enterpriseKeyManagementText": "Monitor and revoke access",
+            "atlas":"Atlas Slack",
+            "atlasText":"Descubra os mapas de perfis e organizacao"
+        }
+    },
+    "Solutions":{
+    },
+    "Company":{
+    },
+    "Resources":{
+    },
+    "prices":{
+    },
+    "featureSection":{
+    },
+    "footerSection":{
+        "products":{
+            "title":"Products",
+            "watchDemonstration":"Watch Demonstration",
+            "prices":"Prices",
+            "paidAndFree":"Paid vs Free",
+            "accessibility": "Accessibility",
+            "highlightedVersions": "Highlighted versions",
+            "alterationLog":"Alteration Log"
+        },
+        "functionalities":{
+            "title":"Functionalities",
+            "channels":"Channels",
+            "slackConnect":"Slack Connect",
+            "workflowCreator":"Work Flow Creator",
+            "messages":"Messages",
+            "circles":"Circles"   
+        },
+        "company":{
+            "title":"Company",
+            "aboutUs":"About us",
+            "news":"News",
+            "midiaKit":"Midia kit",
+            "brandCentral": "Central of Brand",
+            "Carrers":"Carrers"
+        },
+        "solutions":{
+            "title":"Solutions",
+            "engneering":"Engineering",
+            "it":"Solutions in IT",
+            "customServices":"Client custom Services",
+            "sales":"Sales",
+            "projectManagement":"Project Management"
+        }
     }
 }
