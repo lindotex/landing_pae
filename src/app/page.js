@@ -1,6 +1,6 @@
 import React from 'react';
-import Feature from "@/app/components/Feature";
-import Brands from './components/Brands';
+import Feature from "@/app/components/Feature.jsx";
+import Brands from './components/Brands.jsx';
 
 
 export default function Home() {

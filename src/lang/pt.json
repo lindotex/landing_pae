@@ -60,6 +60,13 @@
         }
     },
     "Solutions":{
+        "engneeringComponent" : {
+            "preTitle":"engenharia",
+            "title":"O trabalho de engenharia é mais rápido no Slack",
+            "text":"Envie códigos melhores em menos tempo reunindo ferramentas, colegas de equipe e alterações de código no Slack.",
+            "salesBtn":"Falar com vendas",
+            "freeTestBtn":"Testar gratuitamente"
+        }
     },
     "Company":{
         "productivityComponent" : {
