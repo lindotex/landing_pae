@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import guia from '../assets/guia.jpeg'
 import LeftArrow from '@/app/assets/leftArrow'
+import Article from './Article'
 
 const guideComponent = {
     "preTitle":"Guia",
@@ -10,11 +11,11 @@ const guideComponent = {
     "text":"Reuna as pessoas certas nos canais para compartilhar ideias, tomar decisoes e avancar com um objetivo e um local em comum.",
     "textSubtitle":"Leia mais",
     "articles":{
-        "firstArticle":{
+        "0":{
             "title":"Comece a usar o Slack Connect",
             "text":"Agilize a comunicacao e trabalhe de forma mais segura com parceiros externos, fornecedores e pessoas de fora da empresa."
         },
-        "secondArticle":{
+        "1":{
             "title":"6 Modelos do criador de fluxo de trabalho para engenheiros de software",
             "text":"Economize tempo em funcoes repetitivas e concentre-se no que realmente importa com estes modelos de fluxo de trabalho que podem ser baixados para o slack."
         }
@@ -53,22 +54,18 @@ const Guia = () => {
                 {/* TODO: */}
                 {/* fazer esse componente reutilizavel */}
                 {/* First Article */}
-                <div>
-                    <button type="button" className='cursor-pointer text-left flex-row lg:flex-col'>
-                        <p className='font-light pt-4 pl-4 text-sm'>{guideComponent.preTitle}</p>
-                        <h1 className='mt-2 pl-4 font-bold text-xl'>{guideComponent.articles.firstArticle.title}</h1>
-                        <p className='pl-4 pb-4 text-justify pr-6'>{guideComponent.articles.firstArticle.text}</p>
-                    </button>
-                </div>
 
+                <Article
+                    preTitle={guideComponent.preTitle}
+                    articleTitle={guideComponent.articles[0].title}
+                    articleText={guideComponent.articles[0].text}
+                />
                 {/* Second Article */}
-                <div>
-                    <button type="button" className='cursor-pointer text-left flex-row lg:flex-col'>
-                        <p className='font-light pt-4 pl-4 text-sm'>{guideComponent.preTitle}</p>
-                        <h1 className='mt-2 pl-4 font-bold text-xl'>{guideComponent.articles.secondArticle.title}</h1>
-                        <p className='pl-4 pb-4 text-justify pr-6'>{guideComponent.articles.secondArticle.text}</p>
-                    </button>
-                </div>
+                <Article
+                    preTitle={guideComponent.preTitle}
+                    articleTitle={guideComponent.articles[1].title}
+                    articleText={guideComponent.articles[1].text}
+                />
             </div>
         </section>   
     </>
