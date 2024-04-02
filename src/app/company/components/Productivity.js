@@ -19,7 +19,7 @@ const Productivity = () => {
                         <li>{productivityComponent.list[2]}</li>
                     </ul>
                     <a className='cursor-pointer'><p className='font-light text-blue-500 pt-6 '>{productivityComponent.subTitle}</p></a>
-                    <p className='justify-content font-light italic pt-4'>{productivityComponent.quote}</p>
+                    <quote className='justify-content font-light italic pt-4'>{productivityComponent.quote}</quote>
                     <Image
                         className='pt-2'
                         alt='fox logo'

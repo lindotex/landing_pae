@@ -66,6 +66,18 @@
             "text":"Envie códigos melhores em menos tempo reunindo ferramentas, colegas de equipe e alterações de código no Slack.",
             "salesBtn":"Falar com vendas",
             "freeTestBtn":"Testar gratuitamente"
+        },
+        "solving" : {
+            "preTitle":"RESOLVA PROBLEMAS MAIS RÁPIDO",
+            "title":"Maximize o tempo de funcionamento com uma resposta rápida",
+            "list":[
+                "Envie alertas em tempo real nos canais automaticamente",
+                "Faça investigações paralelas para encontrar respostas rapidamente",
+                "Crie uma fonte de verdade para fazer uma análise rápida e fácil"
+            ],
+            "quote":"“Reduzimos o tempo médio de resolução para menos de cinco minutos. Um sucesso fenomenal em um curto período.”",
+            "ceo":"Paul Whyte, ",
+            "signature":"ex-diretor de engenharia de sistemas"
         }
     },
     "Company":{
@@ -86,6 +98,18 @@
     "Resources":{
     },
     "prices":{
+        "perks" : {
+            "title": "Otimize seu trabalho com a IA do Slack",
+            "text":"Entre em contato com um representante de vendas do Slack ou entre na lista de espera para ver como a IA do Slack pode capacitar todos da sua organização.",
+            "list":[
+                "Obtenha respostas rápidas para suas perguntas com a pesquisa com tecnologia de IA",
+                "Resuma as conversas com um só clique",
+                "Não se preocupe: seus dados permanecem seguros com a IA do Slack"
+            ],
+            "button":"Acessar",
+            "subtitle":"Agora disponível como complemento para planos empresariais em inglês. ",
+            "subtitleSpan":"Entraremos em contato quando outros planos e idiomas estiverem disponíveis."
+        }
     },
     "featureSection":{
     },
