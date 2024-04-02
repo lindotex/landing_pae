@@ -1,8 +1,15 @@
 import React from 'react'
+import Companies from './components/Companies';
+import CompanyBrands from './components/CompanyBrands';
+import Productivity from './components/Productivity';
 
 const Company = () => {
   return (
-    <div>Company page </div>
+    <>
+      <Companies/>
+      <CompanyBrands/>
+      <Productivity/>
+    </>
   )
 }
 export default Company;

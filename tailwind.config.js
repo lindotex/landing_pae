@@ -15,7 +15,8 @@ module.exports = {
       colors: {
         'slack-purple': '#541554',
         'slack-gold': "#ecb22e",
-        'slack-bege':"#f4ede4"
+        'slack-bege':"#f4ede4",
+        'slack-bege-tone':"#f4efe8"
       },
       language: {
       'en': 'en',

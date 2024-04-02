@@ -12,10 +12,12 @@ const guideComponent = {
     "textSubtitle":"Leia mais",
     "articles":{
         "0":{
+            "preTitle":"Guia",
             "title":"Comece a usar o Slack Connect",
             "text":"Agilize a comunicacao e trabalhe de forma mais segura com parceiros externos, fornecedores e pessoas de fora da empresa."
         },
         "1":{
+            "preTitle":"Guia",
             "title":"6 Modelos do criador de fluxo de trabalho para engenheiros de software",
             "text":"Economize tempo em funcoes repetitivas e concentre-se no que realmente importa com estes modelos de fluxo de trabalho que podem ser baixados para o slack."
         }
@@ -48,7 +50,7 @@ const Guia = () => {
                     </div>
                 </button>
             </div>
-
+        
             {/* Third div */}
             <div className='flex w-full lg:flex-col flex-row lg:w-1/3'>
                 {/* TODO: */}
