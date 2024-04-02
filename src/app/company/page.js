@@ -4,6 +4,7 @@ import CompanyBrands from './components/CompanyBrands';
 import Productivity from './components/Productivity';
 
 const Company = () => {
+  
   return (
     <>
       <Companies/>

@@ -62,6 +62,19 @@
     "Solutions":{
     },
     "Company":{
+        "productivityComponent" : {
+            "preTitle":"scaling productivity",
+            "title":"Atenda às necessidades da sua organização com ferramentas poderosas para produtividade",
+            "list":[
+                "Automatize tarefas rotineiras e dedique mais tempo às atividades mais importantes",
+                "Veja o que acontece em toda a organização com facilidade pelo Atlas do Slack, nossa ferramenta integrada de diretório de equipes.",
+                "Visualize a produtividade da equipe e mensure a adesão à pilha de tecnologia com análise avançada"
+            ],
+            "subTitle":"Saiba mais sobre o Slack em grande escala",
+            "quote":"“O Slack tem sido o martelo que nos ajuda a quebrar as paredes de silos. Ele é o sistema operacional de colaboração em 194 países e 171 escritórios, nos unindo como nada antes conseguiu.”",
+            "ceo":"Jeff Dow, ",
+            "signature":"Vice-presidente executivo, operações de mídia e transmissão"
+        }
     },
     "Resources":{
     },
