@@ -1,7 +1,10 @@
+'use client'
 import React from 'react'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const PricesCard = pt.prices.PricesCard
+const data = getLang()
+
+const PricesCard = data.prices.PricesCard
 
 const PricesCards = () => {
   return (
@@ -49,7 +52,7 @@ const PricesCards = () => {
                             <span>{PricesCard.cards[0].perkList5.title}<span class="font-semibold">{PricesCard.cards[0].perkList5.text}</span></span>
                         </li>
                     </ul>
-                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">{PricesCard.cards.btn}</a>
                 </div>
 
                     {/* CARDS */}
@@ -88,7 +91,7 @@ const PricesCards = () => {
                             <span>{PricesCard.cards[1].perkList5.title}<span class="font-semibold">{PricesCard.cards[1].perkList4.text}</span></span>
                         </li>
                     </ul>
-                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple  border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple  border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">{PricesCard.cards.btn}</a>
                 </div>
 
                 {/* CARDS */}
@@ -127,7 +130,7 @@ const PricesCards = () => {
                             <span>{PricesCard.cards[2].perkList5.title}<span class="font-semibold">{PricesCard.cards[2].perkList5.text}</span></span>
                         </li>
                     </ul>
-                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple  border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                    <a href="#" class="hover:text-slack-gold hover:bg-slack-purple hover:border-slack-purple  border-2 text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">{PricesCard.cards.btn}</a>
                 </div>
             </div>
         </div>

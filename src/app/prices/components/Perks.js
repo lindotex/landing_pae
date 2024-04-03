@@ -1,9 +1,12 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import img from '../../assets/perk_img.png'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const perks = pt.prices.perks
+const data = getLang()
+
+const perks = data.prices.perks
 
 const Perks = () => {
   return (

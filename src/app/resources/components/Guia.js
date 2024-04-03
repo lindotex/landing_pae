@@ -1,11 +1,14 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import guia from '../assets/guia.jpeg'
 import LeftArrow from '@/app/assets/leftArrow'
 import Article from './Article'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const guideComponent = pt.Resources.guideComponent
+const data = getLang()
+
+const guideComponent = data.Resources.guideComponent
 
 const Guia = () => {
   return (

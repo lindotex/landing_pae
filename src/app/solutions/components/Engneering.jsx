@@ -1,9 +1,12 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import logo from '../assets/img-video-thumb-eng@2x.jpg'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const engneeringComponent = pt.Solutions.engneeringComponent
+const data = getLang()
+
+const engneeringComponent = data.Solutions.engneeringComponent
 
 const Engneering = () => {
   return (

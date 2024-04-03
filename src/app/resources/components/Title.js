@@ -1,11 +1,14 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
-import pt from '../../../lang/pt.json'
 import lightbulb from '../assets/lightbulb.jpeg'
 import typingMachine from '../assets/typingMachine.jpeg'
 import lockbox from '../assets/lockbox.jpeg'
+import getLang from '@/controllers/language'
 
-const titleComponent = pt.Resources.titleComponent
+const data = getLang()
+
+const titleComponent = data.Resources.titleComponent
 
 
 const Title = () => {

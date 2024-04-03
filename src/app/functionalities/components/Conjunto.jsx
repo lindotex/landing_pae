@@ -1,11 +1,14 @@
+'use client'
 import React from 'react'
 import publicLogo from '../assets/publicos.png'
 import privadoLogo from '../assets/privados.png'
 import connectLogo from '../assets/connect.png'
 import Image from 'next/image'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
+
+const data = getLang()
  
-const conjunto = pt.Functionalities.conjunto
+const conjunto = data.Functionalities.conjunto
 
 const Conjunto = () => {
   return (

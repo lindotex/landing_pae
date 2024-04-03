@@ -19,48 +19,52 @@
         "brands" : "Aproved by companies all over the world"
     },
     "Functionalities":{
-        "collaboration": {
-            "title":"Colaboration",
-            "channels": "Chanels",
-            "channelsText": "Organize your workforce",
-            "slackConnect":"Slack connect",
-            "SlackConnectText":"Work with external partners",
-            "messages":"Mesages",
-            "messagesText":"Talk with your team",
-            "circles":"circles",
-            "circlesText":"Assemble meeting with audio and video",
-            "videoClips":"Clips",
-            "videoClipsText":"Record and share updates"
+        "canais" : {
+            "preTitle":"Channels",
+            "title":"Find a new way to work",
+            "text":"Gather the people together and the right information on channels. Share ideas, take decisions and advance objectively in a common place.",
+            "tryBtn":"Free trial",
+            "salesBtn":"Talk with our sales team"
         },
-        "automation":{
-            "title":"automation",
-            "workflowCreator":"Work Flow Creator",
-            "workflowCreatorText":"Automatize your daily tasks",
-            "integrationApp":"Apps and integration",
-            "integrationAppText":"Bring your tools to slack"
-        },
-        "knowledge":{
-            "title":"Knowledge",
-            "search":"Research",
-            "searchText":"Search shared knowledge",
-            "canvas":"Canvas",
-            "canvasText":"Create advanced and flexible documents",
-            "filesSharing":"Sharing files",
-            "filesSharingText": "Bring your files to the work flow"
-        },
-        "enterprisePlatform":{
-            "title":"Enterprise platform",
-            "ia":"AI of Slack",
-            "iaText":"Simple and intuitive AI, where your are already working at",
-            "security":"Security",
-            "securityText":"Protect your data and ensure conformity",
-            "enterpriseKeyManagement":"Enterprise Key Management",
-            "enterpriseKeyManagementText": "Monitor and revoke access",
-            "atlas":"Atlas Slack",
-            "atlasText":"Descubra os mapas de perfis e organizacao"
+        "conjunto" : {
+            "title":"Work together with dedicated spaces",
+            "text":"Channels are flexible spaces for all the people, tools, and files you need to work, regardless of your work type.",
+            "list":{
+                "0":{
+                    "title":"Public channels",
+                    "text":"They are open for everyone in the company to join or search. Increase transparency and allow everyone to benefit from the context of your conversations."
+                },
+                "1":{
+                    "title":"Private channels",
+                    "text":"For confidential conversations, use private channels. Only guests can view the channel or find its content in search."
+                },
+                "2":{
+                    "title":"Slack Connect",
+                    "text":"Bring people from external organizations into secure Slack channels. Streamline communication and work with clients, suppliers, agencies and more."
+                }
+            }
         }
     },
     "Solutions":{
+        "engneeringComponent" : {
+            "preTitle":"Engneering",
+            "title":"Engineering work is faster on Slack",
+            "text":"Ship better code in less time by bringing together tools, teammates, and code changes in Slack.",
+            "salesBtn":"Talk with our sales team",
+            "freeTestBtn":"Free trial"
+        },
+        "solving" : {
+            "preTitle":"SOLVE PROBLEMS FASTER",
+            "title":"Maximize uptime with fast response",
+            "list":[
+                "Send real-time alerts across channels automatically",
+                "Run parallel investigations to find answers quickly",
+                "Create a source of truth for quick and easy analysis"
+            ],
+            "quote":"“We've reduced the average resolution time to less than five minutes. A phenomenal success in a short period.”",
+            "ceo":"Paul Whyte, ",
+            "signature":"former director of Engineering of Systems"
+        }
     },
     "Company":{
         "productivityComponent" : {
@@ -85,10 +89,121 @@
         }
     },
     "Resources":{
+        "titleComponent" : {
+            "resourcesComponentTitle":"Resources Library",
+            "resourcesComponentSubtitle":"Look for features tailored to your team, your needs, and all the ways you can make the most of Slack.",
+            "lightBulbCard": {
+                "title":"Access the Help Center",
+                "paragraph": "Tutorials, tips, and videos on how to connect, stay organized, and get everything you need done on Slack."
+            },
+            "typeMachineCard": {
+                "title":"Read the slack blog",
+                "paragraph":"Articles about collaboration, transformation, and more, written by industry experts, Slack leaders, and the Slack team."
+            },
+            "lockbox": {
+                "title":"Discover the App Directory",
+                "paragraph":"Choose from over 2,000 ready-made integrations and bring your favorite tools straight to Slack."
+            }
+        },
+        "guideComponent" : {
+            "preTitle":"Guide",
+            "title":"Move your next project to a channel",
+            "text":"Bring the right people together across channels to share ideas, make decisions, and move forward with a common goal and place.",
+            "textSubtitle":"Read more",
+            "articles":{
+                "0":{
+                    "preTitle":"Guide",
+                    "title":"Start using Slack Connect",
+                    "text":"Speed ​​up communication and work more securely with external partners, suppliers and people outside the company."
+                },
+                "1":{
+                    "preTitle":"Guide",
+                    "title":"6 models from the workflow creator for software engineers",
+                    "text":"Save time on repetitive tasks and focus on what really matters with these downloadable workflow templates for Slack."
+                }
+            }
+        }
     },
     "prices":{
-    },
-    "featureSection":{
+        "perks" : {
+            "title": "Optimize your work with Slack AI",
+            "text":"Contact a Slack sales representative or join the waitlist to see how Slack AI can empower everyone in your organization.",
+            "list":[
+                "Get quick answers to your questions with AI-powered search",
+                "Summarize conversations with just one click",
+                "Don't worry: Your data stays safe with Slack's AI"
+            ],
+            "button":"Access",
+            "subtitle":"Now available as an add-on to English business plans. ",
+            "subtitleSpan":"We will contact you when other plans and languages ​​become available."
+        },
+        "PricesCard" : {
+            "title":"Increase your team productivity.",
+            "subtitle":"Made for work teams like yours",
+            "spanTitle":"Here at Slack, we focus on markets where technology, innovation and capital can unlock long-term value and drive economic growth.",
+            "cards":{
+                "btn":"Comece agora",
+                "0":{
+                    "h3":"Single User Starter",
+                    "p":"Best option for personal use & for your next project.",
+                    "price":"FREE",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"1 developer"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"6 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"6 months"
+                    }
+                },
+                "1":{
+                    "h3":"Company",
+                    "p":"Relevant for multiple users, extended & premium support.",
+                    "price":"$49",
+                    "priceSpan":"/month",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"10 developers"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"24 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"24 months"
+                    }
+                },
+                "2":{
+                    "h3":"Enterprise",
+                    "p":"Best for large scale uses and extended redistribution rights.",
+                    "price":"$499",
+                    "priceSpan":"/month",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"100+ developers"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"36 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"36 months"
+                    }
+                }
+            }
+        }
     },
     "footerSection":{
         "products":{

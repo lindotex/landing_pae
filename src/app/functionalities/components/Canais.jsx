@@ -1,9 +1,12 @@
+'use client'
 import React from 'react'
 import canaisLogo from '../assets/hero-channels.pt-BR@2x.jpg'
 import Image from 'next/image'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const canais = pt.Functionalities.canais
+const data = getLang()
+
+const canais = data.Functionalities.canais
 
 const Canais = () => {
   return (

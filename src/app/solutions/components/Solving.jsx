@@ -1,10 +1,13 @@
+'use client'
 import React from 'react'
 import logoVodafone from '../assets/vodafone-logo@2x.png'
 import videoFrame from '../assets/videoframe_7925.png'
 import Image from 'next/image'
-import pt from '../../../lang/pt.json'
+import getLang from '@/controllers/language'
 
-const solving = pt.Solutions.solving
+const data = getLang()
+
+const solving = data.Solutions.solving
 
 const Solving = () => {
   return (

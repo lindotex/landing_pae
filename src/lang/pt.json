@@ -142,63 +142,64 @@
             "subtitle":"Feito para equipes de trabalho como o seu",
             "spanTitle":"Aqui na Slack, nos focamos em mercados onde tecnologia,inovacao e capital podem desbloquear valores de longo prazo e direcionar o crescimento economico.",
             "cards":{
+                "btn":"Comece agora",
                 "0":{
-                    "h3":"Single User Starter",
-                    "p":"Best option for personal use & for your next project.",
-                    "price":"FREE",
-                    "perkList1":"Individual configuration",
-                    "perkList2":"No setup, or hidden fees",
+                    "h3":"Usuario unico",
+                    "p":"Melhor para uso pessoal e para seu proprio projeto.",
+                    "price":"GRATIS",
+                    "perkList1":"Configuracao individual",
+                    "perkList2":"Sem configuracao ou taxas ocultas",
                     "perkList3":{
-                        "title":"Team size: ",
-                        "text":"1 developer"
+                        "title":"Tamanho da equipe: ",
+                        "text":"1 desenvolvedor"
                     },
                     "perkList4":{
-                        "title":"Premium support: ",
-                        "text":"6 months"
+                        "title":"Suporte premium: ",
+                        "text":"6 mes"
                     },
                     "perkList5":{
-                        "title":"Free updates: ",
-                        "text":"6 months"
+                        "title":"Updates gratis: ",
+                        "text":"6 mes"
                     }
                 },
                 "1":{
-                    "h3":"Company",
-                    "p":"Relevant for multiple users, extended & premium support.",
+                    "h3":"Compania",
+                    "p":"Relevante para multiplos usuarios, suporte premium extendido.",
                     "price":"$49",
-                    "priceSpan":"/month",
-                    "perkList1":"Individual configuration",
-                    "perkList2":"No setup, or hidden fees",
+                    "priceSpan":"/mes",
+                    "perkList1":"Configuracao individual",
+                    "perkList2":"Sem configuracao ou taxas ocultas",
                     "perkList3":{
-                        "title":"Team size: ",
-                        "text":"10 developers"
+                        "title":"Tamanho da equipe: ",
+                        "text":"10 desenvolvedores"
                     },
                     "perkList4":{
-                        "title":"Premium support: ",
-                        "text":"24 months"
+                        "title":"Suporte premium: ",
+                        "text":"24 mes"
                     },
                     "perkList5":{
-                        "title":"Free updates: ",
-                        "text":"24 months"
+                        "title":"Updates gratis: ",
+                        "text":"24 mes"
                     }
                 },
                 "2":{
-                    "h3":"Enterprise",
-                    "p":"Best for large scale uses and extended redistribution rights.",
+                    "h3":"Empresarial",
+                    "p":"Melhor para usos de larga escala e direitos de redistribuicao.",
                     "price":"$499",
-                    "priceSpan":"/month",
-                    "perkList1":"Individual configuration",
-                    "perkList2":"No setup, or hidden fees",
+                    "priceSpan":"/mes",
+                    "perkList1":"Configuracoes individuais",
+                    "perkList2":"Sem setup ou taxas ocultas",
                     "perkList3":{
-                        "title":"Team size: ",
-                        "text":"100+ developers"
+                        "title":"Tamanho da equipe: ",
+                        "text":"100+ desenvolvedores"
                     },
                     "perkList4":{
-                        "title":"Premium support: ",
-                        "text":"36 months"
+                        "title":"Suporte premium: ",
+                        "text":"36 mes"
                     },
                     "perkList5":{
-                        "title":"Free updates: ",
-                        "text":"36 months"
+                        "title":"Updates gratis: ",
+                        "text":"36 mes"
                     }
                 }
             }

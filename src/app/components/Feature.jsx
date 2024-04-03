@@ -1,7 +1,5 @@
 'use client'
 import React from 'react'
-import pt from '../../lang/pt.json'
-import en from '../../lang/en.json'
 import getLang from '@/controllers/language'
 
 const data = getLang()
