@@ -1,14 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from '../../app/assets/logo_simple.png'
-import useLanguageSwitcher from '@/controllers/useLanguageSwitcher'
-import pt from '../../lang/pt.json'
-import en from '../../lang/en.json'
+import getLang from '@/controllers/language'
 
+const data = getLang()
 const Footer = () => {
-  const [lang, setLang] = useLanguageSwitcher();
-  const language = window.localStorage.getItem('language')
-  const data = language === 'pt' ? pt : en;
+  
   return (
     <div>
       <footer>

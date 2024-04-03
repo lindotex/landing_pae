@@ -1,12 +1,15 @@
+'use client'
 import React from 'react'
 import videoframe from '../assets/videoframe_866.png'
 import Image from 'next/image'
 import foxLogo from '../assets/fox@2x.png'
-import pt from '../../../lang/pt.json'
-import en from '../../../lang/en.json'
+import getLang from '@/controllers/language'
+
+const data = getLang()
+
+const productivityComponent = data.Company.productivityComponent
 
 const Productivity = () => {
-    const productivityComponent = pt.Company.productivityComponent
         return (
         <>
             <section className='flex flex-col lg:flex-row bg-slack-bege-tone py-12'>

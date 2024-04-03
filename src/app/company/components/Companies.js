@@ -1,14 +1,12 @@
+'use client'
 import React from 'react'
 import img from '../assets/Hero-Illo-enterprise-page.pt-BR@2x.png'
 import Image from 'next/image'
-const companiesFeatures = {
-    "preTitle":"empresas",
-    "title":"Desempenho e produtividade para todos os níveis da sua empresa",
-    "text":"Escalone processos, garanta a conformidade em toda a empresa e maximize a adesão à pilha tecnológica – tudo com o Slack.",
-    "salesBtn":"Falar com vendas",
-    "demoBtn":"Assistir demonstracao",
-    "img": img
-}
+import getLang from '@/controllers/language'
+
+const data = getLang()
+
+const companiesFeatures = data.Company.companiesFeatures
 
 
 const Companies = () => {

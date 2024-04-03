@@ -3,25 +3,9 @@ import publicLogo from '../assets/publicos.png'
 import privadoLogo from '../assets/privados.png'
 import connectLogo from '../assets/connect.png'
 import Image from 'next/image'
+import pt from '../../../lang/pt.json'
  
-const conjunto = {
-    "title":"Trabalhe em conjunto em espaços dedicados",
-    "text":"Os canais são espaços flexíveis para todas as pessoas, ferramentas e arquivos de que você precisa para trabalhar, independentemente do seu tipo de trabalho.",
-    "list":{
-        0:{
-            "title":"Canais públicos",
-            "text":"São abertos para todos na empresa entrarem ou pesquisarem. Aumente a transparência e permita que todos se beneficiem com o contexto das suas conversas."
-        },
-        1:{
-            "title":"Canais privados",
-            "text":"Para conversas confidenciais, use os canais privados. Somente os convidados podem ver o canal ou encontrar seu conteúdo na pesquisa."
-        },
-        2:{
-            "title":"Slack Connect",
-            "text":"Traga pessoas de organizações externas para os canais seguros do Slack. Agilize a comunicação e trabalhe com clientes, fornecedores, agências e muito mais."
-        }
-    }
-}
+const conjunto = pt.Functionalities.conjunto
 
 const Conjunto = () => {
   return (

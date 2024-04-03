@@ -15,7 +15,8 @@
         "featureText":"Connect with the right people. Find what you need to and automatize everything else.That is how it works in Slack. Your own productive platform.",
         "subscribeBtn": "Subscribe with your e-mail",
         "googleBtn": "Sign in with Google",
-        "subText":"Slack can be used totally for free during the time that you need it to."
+        "subText":"Slack can be used totally for free during the time that you need it to.",
+        "brands" : "Aproved by companies all over the world"
     },
     "Functionalities":{
         "collaboration": {
@@ -63,17 +64,24 @@
     },
     "Company":{
         "productivityComponent" : {
-            "preTitle":"scaling productivity",
-            "title":"Atenda às necessidades da sua organização com ferramentas poderosas para produtividade",
+            "preTitle":"Scaling productivity",
+            "title":"Reach all the necessities of your organization with powerfull productivity tools",
             "list":[
-                "Automatize tarefas rotineiras e dedique mais tempo às atividades mais importantes",
-                "Veja o que acontece em toda a organização com facilidade pelo Atlas do Slack, nossa ferramenta integrada de diretório de equipes.",
-                "Visualize a produtividade da equipe e mensure a adesão à pilha de tecnologia com análise avançada"
+                "Automate routine tasks and dedicate your time to more important ones.",
+                "See what happens in all your organization with the easier that Slack Atlas will bring. Our directory integration tool for teams.",
+                "Visualize the productivity of your workteam and measure its adhesion to the technological pile with advanced data analysis."
             ],
-            "subTitle":"Saiba mais sobre o Slack em grande escala",
-            "quote":"“O Slack tem sido o martelo que nos ajuda a quebrar as paredes de silos. Ele é o sistema operacional de colaboração em 194 países e 171 escritórios, nos unindo como nada antes conseguiu.”",
+            "subTitle":"Get know more about Large Scale Slack.",
+            "quote":"“Slack has been the hammer that helps us to break silo's walls. It is the operational system of collaboration in 194 countries and 171 offices. Gathering us like nothing ever had done before.”",
             "ceo":"Jeff Dow, ",
-            "signature":"Vice-presidente executivo, operações de mídia e transmissão"
+            "signature":"Executive Vice-president. Operation media and transmissions"
+        },
+        "companiesFeatures" : {
+            "preTitle":"companies",
+            "title":"Performance and productivity for all levels of your company.",
+            "text":"Upscale processes, ensure the conformity of all your company and maximize the adhesion to the technological pile - Everything with Slack!",
+            "salesBtn":"Talk with Sales",
+            "demoBtn":"Watch a demo"
         }
     },
     "Resources":{

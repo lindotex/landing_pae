@@ -2,9 +2,9 @@
 import React from 'react'
 import pt from '../../lang/pt.json'
 import en from '../../lang/en.json'
+import getLang from '@/controllers/language'
 
-const lang = window.localStorage.getItem('language')
-const data = lang === 'pt' ? pt : en;
+const data = getLang()
 
 const Feature = () => {
 

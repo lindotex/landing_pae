@@ -3,26 +3,9 @@ import React from 'react'
 import guia from '../assets/guia.jpeg'
 import LeftArrow from '@/app/assets/leftArrow'
 import Article from './Article'
+import pt from '../../../lang/pt.json'
 
-const guideComponent = {
-    "preTitle":"Guia",
-    "title":"Mover seu proximo projeto para um canal",
-    "imageSource":guia,
-    "text":"Reuna as pessoas certas nos canais para compartilhar ideias, tomar decisoes e avancar com um objetivo e um local em comum.",
-    "textSubtitle":"Leia mais",
-    "articles":{
-        "0":{
-            "preTitle":"Guia",
-            "title":"Comece a usar o Slack Connect",
-            "text":"Agilize a comunicacao e trabalhe de forma mais segura com parceiros externos, fornecedores e pessoas de fora da empresa."
-        },
-        "1":{
-            "preTitle":"Guia",
-            "title":"6 Modelos do criador de fluxo de trabalho para engenheiros de software",
-            "text":"Economize tempo em funcoes repetitivas e concentre-se no que realmente importa com estes modelos de fluxo de trabalho que podem ser baixados para o slack."
-        }
-    }
-}
+const guideComponent = pt.Resources.guideComponent
 
 const Guia = () => {
   return (
@@ -33,7 +16,7 @@ const Guia = () => {
             <div className='flex flex-row lg:flex-col w-full lg:w-1/3 bg-slack-bege rounded-t-lg item-center justify-center'>
                 <Image
                     alt='guia picture'
-                    src={guideComponent['imageSource']}
+                    src={guia}
                     height={600}
                 />
             </div> 

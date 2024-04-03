@@ -1,15 +1,14 @@
 import React, {useState} from 'react'
 import Image from 'next/image';
 import logo from '../../app/assets/logo.png'
-import pt from '../../lang/pt.json'
-import en from '../../lang/en.json'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import useLanguageSwitcher from '@/controllers/useLanguageSwitcher';
+import getLang from '@/controllers/language'
+
+const data = getLang()
 
 const Header = ({navigationBar}) => {
     const [lang, setLang] = useLanguageSwitcher();
-    const language = window.localStorage.getItem('language')
-    const data = language === 'pt' ? pt : en;
 
     return (
     <div>

@@ -15,7 +15,8 @@
         "featureText":"Conecte-se com as pessoas certas, encontre o que você precisa e automatize o restante. É assim que funciona o trabalho no Slack, sua plataforma de produtividade.",
         "subscribeBtn": "Inscrever-se com o e-mail",
         "googleBtn": "Entrar com Google",
-        "subText":"O Slack pode ser usado gratuitamente pelo tempo que você quiser."
+        "subText":"O Slack pode ser usado gratuitamente pelo tempo que você quiser.",
+        "brands" : "Aprovado por empresa ao redor do mundo"
     },
     "Functionalities":{
         "canais" : {
@@ -24,6 +25,24 @@
             "text":"Reúna as pessoas e as informações certas nos canais. Compartilhe ideias, tome decisões e avance com um objetivo e um local em comum.",
             "tryBtn":"Experimente Gratuitamente",
             "salesBtn":"Falar com a equipe de vendas"
+        },
+        "conjunto" : {
+            "title":"Trabalhe em conjunto em espaços dedicados",
+            "text":"Os canais são espaços flexíveis para todas as pessoas, ferramentas e arquivos de que você precisa para trabalhar, independentemente do seu tipo de trabalho.",
+            "list":{
+                "0":{
+                    "title":"Canais públicos",
+                    "text":"São abertos para todos na empresa entrarem ou pesquisarem. Aumente a transparência e permita que todos se beneficiem com o contexto das suas conversas."
+                },
+                "1":{
+                    "title":"Canais privados",
+                    "text":"Para conversas confidenciais, use os canais privados. Somente os convidados podem ver o canal ou encontrar seu conteúdo na pesquisa."
+                },
+                "2":{
+                    "title":"Slack Connect",
+                    "text":"Traga pessoas de organizações externas para os canais seguros do Slack. Agilize a comunicação e trabalhe com clientes, fornecedores, agências e muito mais."
+                }
+            }
         }
     },
     "Solutions":{
@@ -60,9 +79,50 @@
             "quote":"“O Slack tem sido o martelo que nos ajuda a quebrar as paredes de silos. Ele é o sistema operacional de colaboração em 194 países e 171 escritórios, nos unindo como nada antes conseguiu.”",
             "ceo":"Jeff Dow, ",
             "signature":"Vice-presidente executivo, operações de mídia e transmissão"
+        },
+        "companiesFeatures" : {
+            "preTitle":"empresas",
+            "title":"Desempenho e produtividade para todos os níveis da sua empresa",
+            "text":"Escalone processos, garanta a conformidade em toda a empresa e maximize a adesão à pilha tecnológica – tudo com o Slack.",
+            "salesBtn":"Falar com vendas",
+            "demoBtn":"Assistir demonstracao"
         }
     },
     "Resources":{
+        "titleComponent" : {
+            "resourcesComponentTitle":"Biblioteca de recursos",
+            "resourcesComponentSubtitle":"Procure recursos feitos sob medida para a sua equipe, as suas necessidades e todas as formas de aproveitar ao máximo o Slack.",
+            "lightBulbCard": {
+                "title":"Acesse a Central de Ajuda",
+                "paragraph": "Tutoriais, dicas e videos sobre como se conectar, manter a organizacao e fazer tudo o que for preciso no Slack."
+            },
+            "typeMachineCard": {
+                "title":"Leia o blog do slack",
+                "paragraph":"Artigos sobre colaboracao, transformacao e muito mais, elaborados por especialistas do setor, lideres do slack e pela equipe do slack."
+            },
+            "lockbox": {
+                "title":"Descubra o Diretorio de apps",
+                "paragraph":"Escolha entre mais de 2.000 integracoes prontas e traga suas ferramentas favoritas direto para o slack."
+            }
+        },
+        "guideComponent" : {
+            "preTitle":"Guia",
+            "title":"Mover seu proximo projeto para um canal",
+            "text":"Reuna as pessoas certas nos canais para compartilhar ideias, tomar decisoes e avancar com um objetivo e um local em comum.",
+            "textSubtitle":"Leia mais",
+            "articles":{
+                "0":{
+                    "preTitle":"Guia",
+                    "title":"Comece a usar o Slack Connect",
+                    "text":"Agilize a comunicacao e trabalhe de forma mais segura com parceiros externos, fornecedores e pessoas de fora da empresa."
+                },
+                "1":{
+                    "preTitle":"Guia",
+                    "title":"6 Modelos do criador de fluxo de trabalho para engenheiros de software",
+                    "text":"Economize tempo em funcoes repetitivas e concentre-se no que realmente importa com estes modelos de fluxo de trabalho que podem ser baixados para o slack."
+                }
+            }
+        }
     },
     "prices":{
         "perks" : {
@@ -76,9 +136,73 @@
             "button":"Acessar",
             "subtitle":"Agora disponível como complemento para planos empresariais em inglês. ",
             "subtitleSpan":"Entraremos em contato quando outros planos e idiomas estiverem disponíveis."
+        },
+        "PricesCard" : {
+            "title":"Aumente a sua produtividade em equipe.",
+            "subtitle":"Feito para equipes de trabalho como o seu",
+            "spanTitle":"Aqui na Slack, nos focamos em mercados onde tecnologia,inovacao e capital podem desbloquear valores de longo prazo e direcionar o crescimento economico.",
+            "cards":{
+                "0":{
+                    "h3":"Single User Starter",
+                    "p":"Best option for personal use & for your next project.",
+                    "price":"FREE",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"1 developer"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"6 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"6 months"
+                    }
+                },
+                "1":{
+                    "h3":"Company",
+                    "p":"Relevant for multiple users, extended & premium support.",
+                    "price":"$49",
+                    "priceSpan":"/month",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"10 developers"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"24 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"24 months"
+                    }
+                },
+                "2":{
+                    "h3":"Enterprise",
+                    "p":"Best for large scale uses and extended redistribution rights.",
+                    "price":"$499",
+                    "priceSpan":"/month",
+                    "perkList1":"Individual configuration",
+                    "perkList2":"No setup, or hidden fees",
+                    "perkList3":{
+                        "title":"Team size: ",
+                        "text":"100+ developers"
+                    },
+                    "perkList4":{
+                        "title":"Premium support: ",
+                        "text":"36 months"
+                    },
+                    "perkList5":{
+                        "title":"Free updates: ",
+                        "text":"36 months"
+                    }
+                }
+            }
         }
-    },
-    "featureSection":{
     },
     "footerSection":{
         "products":{
