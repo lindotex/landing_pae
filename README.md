@@ -8,7 +8,9 @@ In this website I tried my best to make this clone without seeing any of its ori
 ## Pre-requisites 
     - NPM 
     - NODEjs 
-    A full tutorial can be found <a href="https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac">HERE</a>
+    A full tutorial can be found 
+    https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+
 ## How to run:
     - fork your copy, and open at your preferable IDE.
     - run the "npm install" on your terminal in order to install all the dependencies needed
