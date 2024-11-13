@@ -15,6 +15,7 @@
   "dependencies": {
     "flag-icons": "^7.1.0",
     "jest": "^29.7.0",
+    "landing_pae": "file:",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
